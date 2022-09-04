@@ -1,0 +1,23 @@
+.stu__details__container{
+    flex-basis: 100%;
+    background-color: var(--color-primary);
+    margin: 0 25rem;
+    padding: 2rem;
+    border-radius: 8px;
+    color: var(--color-primary-variant);
+}
+
+/* ==================MEDIA QURIES (MEDIUM DEVICES)=============== */
+
+@media screen and (max-width:1024px){
+
+    
+}
+
+/* ==================MEDIA QURIES (SMALL DEVICES)=============== */
+
+@media screen and (max-width:600px) {
+    .stu__details__container{
+        margin: 0 0.3rem;
+    }
+}

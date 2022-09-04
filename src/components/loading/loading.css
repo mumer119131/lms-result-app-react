@@ -1,0 +1,44 @@
+
+.loading__container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1000;
+    display: none;
+}
+.dots {
+    width: 13.4px;
+    height: 13.4px;
+    position: relative;
+ }
+ 
+ .dots::before,
+ .dots::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: #f17300;
+ }
+ 
+ .dots::before {
+    box-shadow: -26.9px 0 #f17300;
+    animation: dots-dm1l1cmd 0.6s infinite linear;
+ }
+ 
+ .dots::after {
+    transform: rotate(0deg) translateX(26.9px);
+    animation: dots-dh1qq5md 0.6s infinite linear;
+ }
+ 
+ @keyframes dots-dm1l1cmd {
+    100% {
+       transform: translateX(26.9px);
+    }
+ }
+ 
+ @keyframes dots-dh1qq5md {
+    100% {
+       transform: rotate(-180deg) translateX(26.9px);
+    }
+ }

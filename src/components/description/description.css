@@ -1,0 +1,11 @@
+
+.desc__container{
+    text-align: center;
+    margin-top: 3rem;
+}
+.desc__container p{
+    font-weight: 300;
+}
+.desc__container h2{
+    font-size: 2rem;
+}
