@@ -2,7 +2,7 @@
 .search__container{
     background-color: var(--color-primary-variant);
     width: 30rem;
-    padding: 1rem;
+    padding: 2rem 1rem;
     text-align: center;
     color: var(--color-white);
     border-radius: 8px;
@@ -54,6 +54,7 @@
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 4rem;
 }
 .result__container h3:nth-child(1) {
     background-color: var(--color-primary-variant);

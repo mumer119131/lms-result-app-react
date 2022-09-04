@@ -2,6 +2,7 @@ import Header from "./components/header/Header";
 import Description from "./components/description/Description";
 import Search from "./components/search/Search";
 import Loading from "./components/loading/Loading";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Description />
       <Search />
+      <Footer />
     </>
   );
 }

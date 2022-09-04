@@ -51,6 +51,7 @@ const Search = (props) => {
       <ToastContainer />
       <div className="search__container">
         <p>&copy;Designed By : Muhammad Umer</p>
+        <p><i class="fa-solid fa-circle-exclamation"></i> There is an issue in University GPA and CGPA Calculation System they don't round about the gpa but just cut it off to 2 decimals so the GPA might be different there.</p>
         <input type="text" placeholder='Enter you ag#' id="ag"/>
         
         <label htmlFor="accept"><input type="checkbox" name="accept" id="accept" /> I am doing this on my behalf to scrape the website</label>
