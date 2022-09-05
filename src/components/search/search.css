@@ -55,6 +55,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 4rem;
+    overflow-x: auto;
 }
 .result__container h3:nth-child(1) {
     background-color: var(--color-primary-variant);
